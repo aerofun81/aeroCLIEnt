@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "aeroclient",
+  "version": "${version}",
+  "name": "aeroClient",
+  "description": "aeroClient for Minecraft 1.21.4",
+  "environment": "client",
+  "entrypoints": { "client": ["com.aeroclient.AeroClient"] },
+  "mixins": ["aeroclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
